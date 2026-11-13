@@ -1,0 +1,17 @@
+# --- Web API ---
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# --- Agent orchestration + LLM (Gemini) ---
+langgraph
+langchain-google-genai
+
+# --- MCP: client (talks to MCP servers) ---
+langchain-mcp-adapters
+
+# --- MCP: free servers, installed as normal Python packages ---
+mcp-server-fetch      # fetch: read any web page
+wikipedia-mcp         # wikipedia: search + summaries
+arxiv-mcp-server      # arxiv: search academic papers
+# (the 4th server, "filesystem", is a Node package and is started with npx)

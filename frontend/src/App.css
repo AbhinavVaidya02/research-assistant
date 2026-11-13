@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; background: #f6f7f9; margin: 0; color: #1c1e21; }
+.page { max-width: 760px; margin: 0 auto; padding: 32px 16px; }
+h1 { margin-bottom: 0; }
+.subtitle { color: #666; margin-top: 4px; }
+.input-row { display: flex; gap: 8px; margin: 24px 0; }
+input { flex: 1; padding: 10px 12px; font-size: 16px; border: 1px solid #ccd0d5; border-radius: 8px; }
+button { padding: 10px 18px; font-size: 16px; border: 0; border-radius: 8px; background: #2f6fed; color: white; cursor: pointer; }
+button:disabled { background: #a9b8dc; cursor: not-allowed; }
+.step { background: white; border: 1px solid #e3e5e8; border-radius: 8px; padding: 12px 14px; margin-bottom: 10px; }
+.step pre { white-space: pre-wrap; margin: 6px 0 0; font-family: inherit; color: #444; }
+.step.working { color: #777; font-style: italic; }
+.error { background: #fdecea; border: 1px solid #f5b5ae; padding: 10px 12px; border-radius: 8px; margin-bottom: 12px; }
+.report { background: white; border: 1px solid #e3e5e8; border-radius: 8px; padding: 8px 24px; margin-top: 24px; line-height: 1.6; }
